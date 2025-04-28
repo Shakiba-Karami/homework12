@@ -2,23 +2,393 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/styles/index.css">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/styles/pagecontent.css">
 
     </head>
     <body>
         <header>
-
+            <div id="header-logo">
+                <img class="logo" src="./assets/images/logo.png" alt="tacohead-logo">
+            </div>
         </header>
-        <section id="">
-
-        </section>
-        <section id="">
-
-        </section>
+        <div id="container">
+            <section id="menu">
+                <div class="menu-wrapper">
+                    <ul>
+                        <li>
+                            <img src="./assets/images/pizzaicon.png" alt="pizzaicon">
+                            <span>پیتزا</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/sandwichicon.png" alt="sandwichicon">
+                            <span>ساندویچ</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/tacoicon.png" alt="tacoicon">
+                            <span>تاکو</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/boritoicon.png" alt="boritoicon">
+                            <span>بوریتو</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/nachosicon.png" alt="nachosicon">
+                            <span>ناچوز</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/friesicon.png" alt="friesicon">
+                            <span>سیب زمینی</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/saladicon.png" alt="saladicon">
+                            <span>سالاد</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/drinkicon.png" alt="drinkicon">
+                            <span>نوشیدنی</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="pagecontent" class="wrapper">
+                <div class="menupart">
+                    <h1>
+                        پیتزا
+                    </h1>
+                    <ul>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/mix.png" alt="pizzamix">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">پیتزا مخلوط</h2>
+                                <p class="ingredients">
+                                    بیکن، چوریتسوی دست‌ساز، چیلی کان کارنه (خورشت گوشت فلفلی)،
+                                        لوبیا سیاه، قارچ، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۸.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/chili.png" alt="pizzachili">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">پیتزا چیلی کان کارنه</h2>
+                                <p class="ingredients">
+                                    چیلی کان کارنه (خورشت گوشت فلفلی)، فلفل هالوپینو،
+                                    چیپس ناچوی دست‌ساز، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره و تند)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۳.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/choritsu.png" alt="pizzachuritsu">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">پیتزا چوریتسو</h2>
+                                <p class="ingredients">
+                                    پیتزا تک نفره با نان ضخیم دست ساز، چوریتسو دست ساز و خانگی، قارچ،
+                                        فلفل دلمه ای، زیتون سیاه، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۳.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/steak.png" alt="pizzasteak">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">پیتزا استیک</h2>
+                                <p class="ingredients">
+                                    استیک گوساله مزه‌دار شده و سس گشنیز دست‌ساز، پیاز، قارچ،
+                                    زیتون سیاه، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۵۲.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/chicken.png" alt="pizzachickenBBQ">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">پیتزا مرغ باربیکیو</h2>
+                                <p class="ingredients">
+                                    مرغ گریل با سس باربکیوی دست‌ساز، فلفل دلمه، قارچ، زیتون،
+                                        پیاز، گشنیز تازه، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۳.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menupart">
+                    <h1>
+                        ساندویچ
+                    </h1>
+                    <ul>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/tortachoritsu.png" alt="tortachuritsu">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">تورتا چوریتسو</h2>
+                                <p class="ingredients">ساندویچ چوریتسو دست ساز مایا،
+                                        کاهو، سالسا گوجه فرنگی، پیاز سوخاری، باگت دست سایز
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۱۲.۴
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/tortabarbeque.png" alt="tortaBBQ">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">تورتا بارباکوآ</h2>
+                                <p class="ingredients">
+                                    ساندویچ رست بیف،
+                                        کاهو، سالسا گوجه فرنگی، پیاز سوخاری، باگت دست ساز
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۸.۴
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/tortatofu.png" alt="tortatofu">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">تورتا توفو</h2>
+                                <p class="ingredients">
+                                    ساندویچ توفو ویژه گیاهخواران، کاهو،
+                                        سالسا گوجه فرنگی، پیاز سوخاری، باگت دست ساز
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۲۵.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menupart">
+                    <h1>
+                        تاکو
+                    </h1>
+                    <ul>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/amigo.png" alt="taco3amigo">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">سه آمیگو
+                                </h2>
+                                <p class="ingredients">
+                                    سه عدد تاکو (مرغ گریل، بارباکوآ، چوریتسو)، با تورتیای ذرت دست‌ساز مایا
+                                        (بدون هر نوع افزودنی)، سالساها و سس‌های خانگی (سرو به صورت سرد)
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۰۳.۴
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menupart">
+                    <h1>
+                        بوریتو
+                    </h1>
+                    <ul>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/borito.png" alt="boritochuritsu">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">بوریتو چوریتسو
+                                </h2>
+                                <p class="ingredients">
+                                    رپ نیم کیلویی با چوریتسوری دست‌ساز در نان تورتیای دست ساز، برنج مکزیکی یا
+                                    سیب زمینی سرخ کرده، کاهو، ریفراید بینز، خامه ترش، سالسا
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۸.۴
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/borito.png" alt="boritochili">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">بوریتو چیلی کان کارنه
+                                </h2>
+                                <p class="ingredients">
+                                    رپ نیم کیلویی با خورشت چیلی کان کارنه (گوشت و فلفل) در نان تورتیای دست ساز، برنج مکزیکی یا
+                                    سیب زمینی سرخ کرده، کاهو، ریفراید بینز، خامه ترش، سالسا
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۳.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="itemimage">
+                                <img src="./assets/images/borito.png" alt="boritochicken">
+                            </div>
+                            <div class="itemdetails">
+                                <h2 class="itemname">بوریتو مرغ گریل
+                                </h2>
+                                <p class="ingredients">
+                                    رپ نیم کیلویی با مرغ فاهیتای گریل شده در نان تورتیای دست ساز، برنج مکزیکی یا
+                                        سیب زمینی سرخ کرده، کاهو، ریفراید بینز، خامه ترش، سالسا
+                                </p>
+                                <div class="itemprice">
+                                    <span class="number">
+                                        ۱۴۳.۹
+                                    </span>
+                                    <div class="itempriceunit">
+                                        <div>
+                                            هـــزار
+                                        </div>
+                                        <div class="currency">
+                                            تـومان
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
+            </section>
+        </div>
     </body>
 </html>
