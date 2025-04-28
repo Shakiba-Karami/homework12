@@ -1,0 +1,126 @@
+body {
+    background-color: var(--bg-color);
+}
+:root {
+    --bg-color: #323031;
+    --title-red: #DB3A34;
+    --menu-text-color: white;
+
+    --text-xxs: 8px;
+    --text-s:  10px;
+    --text-m: 12px;
+    --text-l: 14px;
+    --text-xl: 16px;
+    --text-xxl: 21px;
+    --text-xs: 23px;
+    --text-xxxl: 32px;
+
+    --text-sbold: 300;
+    --text-norm: 400;
+    --text-bold: 700;
+    --text-xbold: 900;
+    
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 10px;
+}
+
+h1 {
+    color: var(--title-red);
+    font-size: var(--text-xl);
+    font-weight: var(--text-bold);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0 0 10px 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listitem {
+    background-color: #FFFFFF33;
+    border-radius: 12px;
+    padding: 4px 5px 4px 10px;
+    color: var(--menu-text-color);
+    display: flex;
+    overflow: hidden;
+    gap: 10px
+    
+}
+
+.itemimage {
+    width: 84px;
+    /* height: 84px; */
+    flex-shrink: 0;
+    flex-grow: 1;
+    max-width: 145px;
+    /* min-width: 84px; */
+
+}
+.itemimage img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+
+    
+}
+.itemdetails {
+    flex-grow: 3;
+    min-width: 0;
+
+}
+
+.itemname {
+    font-weight: var(--text-bold);
+    font-size: var(--text-l);
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: right;
+    margin: 0;
+
+}
+.ingredients {
+    font-size: var(--text-s);
+    font-weight: var(--text-sbold);
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: justify;
+    opacity: 70%;
+    margin: 2px 0;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+.itemprice {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.number {
+    font-weight: var(--text-norm);
+    font-size: var(--text-xxl);
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 3px;
+
+}
+.itempriceunit {
+    font-weight: var(--text-norm);
+    font-size: var(--text-xxs);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.currency {
+    font-weight: var(--text-bold);
+}
