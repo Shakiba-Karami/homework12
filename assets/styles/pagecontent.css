@@ -163,6 +163,10 @@ ul {
         margin: 6px;
         flex-direction: column;
         padding: 12px;
+        overflow: visible;
+    }
+    .menupart ul li:hover .itemimage img {
+        transform: scale(1.5);
     }
     .itemimage {
         width: 100%;
