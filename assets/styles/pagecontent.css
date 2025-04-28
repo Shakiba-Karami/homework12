@@ -58,11 +58,12 @@ ul {
 
 .itemimage {
     width: 84px;
-    /* height: 84px; */
+    height: 84px;
     flex-shrink: 0;
-    flex-grow: 1;
-    max-width: 145px;
+    /* flex-grow: 1; */
+    /* max-width: 145px; */
     /* min-width: 84px; */
+    /* flex-basis: 145px; */
 
 }
 .itemimage img {
@@ -75,7 +76,7 @@ ul {
     
 }
 .itemdetails {
-    flex-grow: 3;
+    flex-grow: 2;
     min-width: 0;
 
 }
