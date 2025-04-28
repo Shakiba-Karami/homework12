@@ -6,14 +6,12 @@ body {
     --title-red: #DB3A34;
     --menu-text-color: white;
 
-    --text-xxs: 8px;
+    --text-xs: 8px;
     --text-s:  10px;
-    --text-m: 12px;
-    --text-l: 14px;
-    --text-xl: 16px;
-    --text-xxl: 21px;
-    --text-xs: 23px;
-    --text-xxxl: 32px;
+    --text-m: 14px;
+    --text-l: 16px;
+    --text-xl: 21px;
+
 
     --text-sbold: 300;
     --text-norm: 400;
@@ -21,7 +19,7 @@ body {
     --text-xbold: 900;
     
 }
-.container {
+.wrapper {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -32,9 +30,9 @@ body {
 
 h1 {
     color: var(--title-red);
-    font-size: var(--text-xl);
+    font-size: var(--text-l);
     font-weight: var(--text-bold);
-    line-height: 100%;
+    line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
     margin: 0 0 10px 0;
@@ -84,7 +82,7 @@ ul {
 
 .itemname {
     font-weight: var(--text-bold);
-    font-size: var(--text-l);
+    font-size: var(--text-m);
     line-height: 130%;
     letter-spacing: 0%;
     text-align: right;
@@ -112,7 +110,7 @@ ul {
 }
 .number {
     font-weight: var(--text-norm);
-    font-size: var(--text-xxl);
+    font-size: var(--text-xl);
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: middle;
@@ -121,7 +119,7 @@ ul {
 }
 .itempriceunit {
     font-weight: var(--text-norm);
-    font-size: var(--text-xxs);
+    font-size: var(--text-xs);
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
@@ -135,12 +133,17 @@ ul {
 }
 }
 @media (width >= 1000px) {
-    :{
+    :root {
         
+    --text-xs: 10px;
+    --text-s:  12px;
+    --text-m: 16px;
+    --text-l: 32px;
+    --text-xl: 23px;
     }
-    .menupart {
+    .wrapper {
         width: 800px;
-        margin: 0 auto;
+        margin: 70 auto;
     }
     h1 {
         margin-bottom: 12px;
@@ -150,12 +153,15 @@ ul {
         display: flex;
         flex-wrap: wrap;
         border-top: solid 1px var(--title-red);
-        margin: -6px;
+        margin: 0 -6px 24px -6px;
+        padding: 24px 0;
 
     }
     .menupart ul li {
         width: 50%;
-        padding: 6px;
+        padding: 0 6px;
+        margin: 0;
+        
     }
     .listitem {
         flex-direction: column;
